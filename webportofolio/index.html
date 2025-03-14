@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3bb59eff3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>About Me: Davina Gautama</p>
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------- about ----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/CV Resume.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Information Systems Student at Universitas Mulawarman | Balikpapan
+
+                        I am an Information Systems student at Universitas Mulawarman with a strong interest in data management, system development, and technological innovation. Originally from Balikpapan, I am passionate about exploring digital solutions to enhance efficiency and effectiveness across various fields.
+
+                        With a background in technology and information systems, I am experienced in data analysis, application development, and technology-based project management. I have also been involved in academic projects, such as developing a web-based inventory management system and designing computer networks using Cisco Packet Tracer.
+                        
+                        I am always open to collaboration, research, or projects related to information systems and digital technology.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experiens')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiens">
+                        <ul>
+                            <li><span>2024 - sekarang</span><br>learn to web Develompment</li></li>
+                            <li><span>2023 - sekarang</span><br>learn to code</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>vocational high school
+                                computer network engineering student</li>
+                            <li><span>2024</span><br>information engineering student</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------- service --------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Develompment</h2>
+                <p> I am an Information Systems student at Universitas Mulawarman who also offers website development services for various needs, 
+                    
+                    including business websites, e-commerce, portfolios, and web-based systems. With expertise in web development, I am committed to creating effective, responsive, and user-friendly digital solutions.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-servicestack"></i>
+                <h2> daya analytics </h2>
+                <p> a data analyst with expertise in processing, interpreting, and visualizing data to support informed decision-making. I specialize in transforming raw data into actionable insights, helping businesses optimize their strategies and operations. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>digital business consultant</h2>
+                <p> digital business consultant specializing in data-driven strategies and business optimization. With expertise in data analysis, market trends, and digital transformation, I help businesses leverage technology to enhance efficiency, improve decision-making, and drive growth.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------portfolio---------- -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/sedapora.png">
+                <div class="layer">
+                    <h3>SEDAPORA</h3>
+                    <p>Sedapora is a homestyle restaurant dedicated to serving delicious and wholesome lunch options, crafted with love and traditional flavors. We bring the warmth of homemade meals to your table, offering a variety of dishes made from fresh, high-quality ingredients.</p>
+                    <a href="https://www.instagram.com/Sedapora/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/data analytics.jpg">
+                <div class="layer">
+                    <h3>Data Analyst</h3>
+                    <p>soon to be :D</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- certificate -->
+<div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">education & experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/vocational hs certificate.jpg">
+                <div class="layer">
+                    <h3>vocational highschool certificate</h3>
+                </div>
+            </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/certificate1.jpg">
+                <div class="layer">
+                    <h3>internship in vocational highschool</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> davinaputriku@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 085752358477</p>
+                <div class="social-icons">
+                    <a href="https://youtube.com/@sweebtesb?si=tQtJR7us6sMnNB5V"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/davinaizz/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/davinasi"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/downloadmycv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        copyright  &#169; 2025 davina  
+    </div>
+</div>
+
+
+    <script>
+        const tablinks = document.getElementsByClassName("tab-links");
+        const tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+        
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwdCZNEmOoonpTIv26TMv6MGV4IsxHmeRhxSiXS5VUDvvZe2j-1RJzE7guqqiZB2mGq/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<script src="main.js"></script>
+
+</body>
+</html>
